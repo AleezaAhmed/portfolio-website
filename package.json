@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo \"No build step configured. Static site ready.\""
+    "build": "echo \"No build step configured. Static site ready.\"",
+    "start": "npx http-server . -p 8080"
   }
 }

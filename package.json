@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "echo \"No build step configured. Static site ready.\"",
+    "vercel-build": "echo \"Static site ready for Vercel.\"",
     "start": "npx http-server . -p 8080"
   }
 }
